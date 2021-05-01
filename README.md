@@ -20,4 +20,4 @@ Here are some ideas to get you started:
 <br />
 
 
-<img align="left" alt="Crepco's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=radical" />
+<img align="left" alt="Crepco's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight" />
