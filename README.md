@@ -7,12 +7,14 @@
 
 
 
-Things I am working on:
+**Things I am working on:**
 <br />
 - [Keira](https://github.com/Crepco/Keira)
 Things I am going to work on in the future:
 <br />
 
+
+**Things I wanna work on in the future:**
 - A Portfolio Website.
 - A Dashboard For Keira.
 - A Huge Anime API.
