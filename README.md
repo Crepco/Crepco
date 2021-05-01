@@ -21,3 +21,4 @@ Here are some ideas to get you started:
 
 
 <img align="left" alt="Crepco's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight" />
+<img align="left" alt="Crepco's Top Languages" src="https://github-readme-stats.vercel.app/api/wakatime?username=Crepco&theme=tokyonight" />
