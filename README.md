@@ -10,7 +10,8 @@
 **Things I am working on:**
 <br />
 - [Keira](https://github.com/Crepco/Keira)
-Things I am going to work on in the future:
+
+<br />
 <br />
 
 
