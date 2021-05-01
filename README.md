@@ -6,16 +6,19 @@
 
 
 
-- 🔭 I’m currently working on Keira(A multi purpose discord bot), Portfolio Website. I have plans to make a huge Anime API some where in the future
+
+Things I am working on:
+<br />
+- [Keira](https://github.com/Crepco/Keira) 
+
+Things I am going to work on in the future:
+<br />
+- A Portfolio Website.
+- A Dashboard For Keira.
+- A Huge Anime API.
 
 
 
-- 🌱 I’m currently learning JavaScript, CSS, HTML.
-- 🤔 I’m looking for help with JavaScript, CSS, HTML. 
-- 💬 Ask me about anything [here](https://github.com/Crepco/Crepco/issues)
-- 📫 How to reach me: You can reach me out on Discord, Crepco#5430
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I am really really lazy
 
 <br />
 <br />
