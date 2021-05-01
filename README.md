@@ -30,7 +30,6 @@
 
 
 **Things I wanna work on in the future:**
-- A Portfolio Website.
 - A Dashboard For Keira.
 - A Huge Anime API.
 <br />
