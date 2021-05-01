@@ -1,7 +1,9 @@
 ### Hi 👋
 <br />
 - :v: I am Crepco. I am a 16 year old High School student. I am passionate about coding.
-- 🌱
+- 🌱 I am currently learning everything. Can never stop learning.
+- Wanna get in contact with me? You can contact me on Discord, Crepco#5430. Or [Click Here](https://github.com/Crepco?crepco/issues)
+- 
 
 
 <br />
@@ -40,7 +42,9 @@
 
 <br />
 <br />
+---
 
+### STATS
 
 <img align="left" alt="Crepco's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight" />
 <img align="left" alt="Crepco's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crepco&theme=tokyonight" />
