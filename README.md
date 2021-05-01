@@ -1,4 +1,4 @@
-### Hi, I am [Crepco!](https://crepco.github.io) 👋
+### Hi, I am Crepco 👋
 
 <br />
 <br />
