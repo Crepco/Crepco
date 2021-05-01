@@ -9,13 +9,13 @@
 
 Things I am working on:
 <br />
-- [Keira](https://github.com/Crepco/Keira) 
+```- [Keira](https://github.com/Crepco/Keira)``` 
 
 Things I am going to work on in the future:
 <br />
-- A Portfolio Website.
+```- A Portfolio Website.
 - A Dashboard For Keira.
-- A Huge Anime API.
+- A Huge Anime API.```
 
 
 
