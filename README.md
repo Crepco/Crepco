@@ -1,8 +1,13 @@
-### Hi, I am Crepco 👋
+### Hi 👋
+<br />
+- :v: I am Crepco. I am a 16 year old High School student. I am passionate about coding.
+- 🌱
+
 
 <br />
 <br />
 <br />
+---
 
 
 
