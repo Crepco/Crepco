@@ -1,7 +1,7 @@
 ### Hi 👋
 <br />
 
-- :v: I am Crepco. I am a 16 year old High School student. I am passionate about coding.
+- :v: I am Crepco. I am a 16 year old High School student. I am passionate about coding. I am a really lazy person I am trying to be more productive :sob:
 
 - 🌱 I am currently learning everything I can. Can never stop learning.
 
