@@ -13,7 +13,8 @@ Things I am working on:
 
 Things I am going to work on in the future:
 <br />
-```- A Portfolio Website.
+```
+- A Portfolio Website.
 - A Dashboard For Keira.
 - A Huge Anime API.```
 
