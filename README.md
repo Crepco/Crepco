@@ -5,7 +5,7 @@
 
 - 🌱 I am currently learning everything I can. Can never stop learning.
 
-- 💬 Wanna get in contact with me? You can contact me on Discord, Crepco#5430 or [here](https://github.com/Crepco/Crepco/issues)
+- 💬 Wanna get in contact with me? You can contact me on Discord, Crepco#6969 or [here](https://github.com/Crepco/Crepco/issues)
 
 
 <br />
