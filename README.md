@@ -1,38 +1,21 @@
 ### Hi 👋
 <br />
 
-- :v: I am Crepco. I am a 16 year old High School student. I am passionate about coding. I am a really lazy person I am trying to be more productive :sob:
+- :v: I am Hamza. I am a 16 year old High School student. I am passionate about coding. I am a really lazy person I am trying to be more productive :sob:
 
 - 🌱 I am currently learning everything I can. Can never stop learning.
 
-- 💬 Wanna get in contact with me? You can contact me on Discord, Crepco#6969 or [here](https://github.com/Crepco/Crepco/issues)
+- 💬 Wanna get in contact with me? You can contact me [here](https://github.com/Crepco/Crepco/issues)
 
 
 <br />
 <br />
 <br />
 
----
-
-### Spotify Playing 🎧
-
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="Crepco's Spotify Playing" width="350" />](https://open.spotify.com/user/gukxdt7yldzx6xrwrh3lmukv2?si=85cccb811ff34485)
----
-<br />
-
-**Things I am working on:**
-<br />
-- [Keira](https://github.com/Crepco/Keira)
-- My Portfolio [Website](https://github.com/Crepco/portfolio).
 
 <br />
-<br />
 
 
-**Things I wanna work on in the future:**
-- A Dashboard For Keira.
-- A Huge Anime API.
-<br />
 
 
 
