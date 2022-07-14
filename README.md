@@ -1,9 +1,8 @@
 ### Hi 👋
 <br />
 
-- :v: I am Hamza. I am a 16 year old High School student. I am passionate about coding. I am a really lazy person I am trying to be more productive :sob:
+- :v: I am Hamza. I am a 18 year old High School student. I am passionate about coding. 
 
-- 🌱 I am currently learning everything I can. Can never stop learning.
 
 - 💬 Wanna get in contact with me? You can contact me [here](https://github.com/Crepco/Crepco/issues)
 
