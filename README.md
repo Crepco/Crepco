@@ -1,7 +1,7 @@
 ### Hi 👋
 <br />
 
-- :v: I am Hamza. I am a 18 year old High School student. I am passionate about coding. 
+- :v: I am Hamza. I am a 18 year old software engineering student. I am passionate about coding. 
 
 
 - 💬 Wanna get in contact with me? You can contact me [here](https://github.com/Crepco/Crepco/issues)
