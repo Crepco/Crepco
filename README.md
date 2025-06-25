@@ -1,6 +1,6 @@
 <!-- PROFILE BANNER -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Hamza+%F0%9F%91%8B;Software+Engineering+Student;Python+%7C+Django+%7C+JavaScript;Let's+build+cool+stuff+together!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Hamza+%F0%9F%91%8B;Software+Engineering+Student+%7C+Cybersecurity+Learner;Python+%7C+Django+%7C+JavaScript;Let's+build+cool+stuff+%26+break+things!" alt="Typing SVG" />
 </p>
 
 ---
@@ -9,19 +9,47 @@
 
 - 👋 I’m **Hamza**, a 21-year-old software engineering student from India.  
 - 👨‍💻 I love building creative, useful, and elegant software tools.  
+- 🛡️ Passionate about **Cybersecurity**, **Ethical Hacking**, and **Bug Bounty**.  
 - 💡 Always curious about new technologies & open source!  
 - 🌐 Let’s collaborate and innovate!
 
 📫 Contact me [here](https://github.com/Crepco/Crepco/issues)
 
-<br/>
+---
+
+### ⚒️ Tools & Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,html,css,js,git,github,mysql,linux,vscode,tailwind,bash" />
+</p>
 
 ---
 
-### 🚀 Tools & Technologies
+### 🛡️ Cybersecurity & Ethical Hacking
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,html,css,js,git,github,mysql,linux,vscode,tailwind" />
+  <img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="350" />
+</p>
+
+- 🔐 Learning Ethical Hacking & Penetration Testing  
+- 🐍 Writing automation scripts in Python for recon and scanning  
+- 🕵️‍♂️ Exploring OSINT & bug bounty platforms  
+- 🧰 Familiar with tools like:
+  - Burp Suite
+  - Nmap
+  - Wireshark
+  - Metasploit
+  - Nikto
+  - Gobuster
+  - JohnTheRipper
+  - Hydra
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OSINT-Tools-blue?style=for-the-badge&logo=hackthebox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Burp%20Suite-FF6C37?style=for-the-badge&logo=burp-suite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-00497E?style=for-the-badge&logo=nmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
 </p>
 
 ---
@@ -33,9 +61,9 @@
 </p>
 
 - 🔹 Full-Stack Django Development  
-- 🔹 System Design  
 - 🔹 APIs & Backend Scalability  
-- 🔹 Automation & Bots
+- 🔹 System Design  
+- 🔹 Ethical Hacking & Capture The Flag (CTF) Challenges
 
 ---
 
