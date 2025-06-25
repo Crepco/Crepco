@@ -1,53 +1,72 @@
-### Hi 👋  
-<br />
-
-- 🙋‍♂️ I'm **Hamza**, a **21-year-old** Software Engineering student.  
-- 💻 Passionate about **coding**, building **cool projects**, and solving real-world problems.  
-- 🚀 Always exploring new technologies and learning something new every day.
-
-- 💬 Want to connect or collaborate? Feel free to [reach out here](https://github.com/Crepco/Crepco/issues).
-
-<br /><br /><br />
+<!-- PROFILE BANNER -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Hamza+%F0%9F%91%8B;Software+Engineering+Student;Python+%7C+Django+%7C+JavaScript;Let's+build+cool+stuff+together!" alt="Typing SVG" />
+</p>
 
 ---
 
-### 🚀 TOOLS & TECHNOLOGIES I USE
+### 🧑‍💻 About Me
 
-<p>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
+- 👋 I’m **Hamza**, a 21-year-old software engineering student from India.  
+- 👨‍💻 I love building creative, useful, and elegant software tools.  
+- 💡 Always curious about new technologies & open source!  
+- 🌐 Let’s collaborate and innovate!
 
-<br /><br />
+📫 Contact me [here](https://github.com/Crepco/Crepco/issues)
+
+<br/>
 
 ---
 
-### 📊 GITHUB STATS
+### 🚀 Tools & Technologies
 
-<p>
-  <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight" />
-  <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crepco&layout=compact&theme=tokyonight" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,html,css,js,git,github,mysql,linux,vscode,tailwind" />
 </p>
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ---
 
 ### 🧠 Currently Learning
 
-- 🔹 Full-Stack Web Development  
-- 🔹 REST APIs and Django Backend  
-- 🔹 System Design & Scalable Architectures  
-- 🔹 Open Source Collaboration
+<p align="center">
+  <img src="https://media.giphy.com/media/jRfT4h4Dj2SAEFyZgF/giphy.gif" width="200" />
+</p>
+
+- 🔹 Full-Stack Django Development  
+- 🔹 System Design  
+- 🔹 APIs & Backend Scalability  
+- 🔹 Automation & Bots
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight&count_private=true" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crepco&layout=compact&theme=tokyonight" height="180px"/>
+</p>
+
+---
+
+### 🔥 Streak & Trophies
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Crepco&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Crepco&theme=tokyonight&column=4" />
+</p>
+
+---
+
+### 🎯 Fun & Personality
+
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250" />
+</p>
+
+> _“Code is like humor. When you have to explain it, it’s bad.”_
 
 ---
 
