@@ -29,7 +29,7 @@
 ### 🧠 Currently Learning
 
 <p align="center">
-  <img src="https://media.giphy.com/media/jRfT4h4Dj2SAEFyZgF/giphy.gif" width="200" />
+  <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="420" />
 </p>
 
 - 🔹 Full-Stack Django Development  
@@ -59,4 +59,3 @@
 </p>
 
 ---
-
