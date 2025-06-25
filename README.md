@@ -3,15 +3,18 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Hamza+%F0%9F%91%8B;Software+Engineering+Student+%7C+Cybersecurity+Learner;Python+%7C+Django+%7C+JavaScript;Let's+build+cool+stuff+%26+break+things!" alt="Typing SVG" />
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Crepco&style=flat-square&color=blue" alt="Profile views" />
+</p>
+
 ---
 
 ### 🧑‍💻 About Me
 
 - 👋 I’m **Hamza**, a 21-year-old software engineering student from India.  
-- 👨‍💻 I love building creative, useful, and elegant software tools.  
-- 🛡️ Passionate about **Cybersecurity**, **Ethical Hacking**, and **Bug Bounty**.  
-- 💡 Always curious about new technologies & open source!  
-- 🌐 Let’s collaborate and innovate!
+- 👨‍💻 Passionate about coding, building tools, and breaking things ethically.  
+- 🛡️ Deeply interested in **Cybersecurity**, **Bug Bounties**, and **Linux-based hacking**.  
+- 🌐 Let's collaborate and innovate something useful!  
 
 📫 Contact me [here](https://github.com/Crepco/Crepco/issues)
 
@@ -35,14 +38,8 @@
 - 🐍 Writing automation scripts in Python for recon and scanning  
 - 🕵️‍♂️ Exploring OSINT & bug bounty platforms  
 - 🧰 Familiar with tools like:
-  - Burp Suite
-  - Nmap
-  - Wireshark
-  - Metasploit
-  - Nikto
-  - Gobuster
-  - JohnTheRipper
-  - Hydra
+  - Burp Suite, Nmap, Wireshark, Metasploit
+  - JohnTheRipper, Hydra, Nikto, Gobuster
 
 <p align="center">
   <img src="https://img.shields.io/badge/OSINT-Tools-blue?style=for-the-badge&logo=hackthebox&logoColor=white" />
@@ -57,7 +54,7 @@
 ### 🧠 Currently Learning
 
 <p align="center">
-  <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="420" />
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="420" />
 </p>
 
 - 🔹 Full-Stack Django Development  
@@ -87,3 +84,20 @@
 </p>
 
 ---
+
+### 🎮 Interactive Corner
+
+<p align="center">
+  <a href="https://github.com/Crepco?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Crepco&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://tryhackme.com/">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/username.png" alt="TryHackMe" />
+  </a>
+</p>
+
+---
+
