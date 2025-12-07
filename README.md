@@ -13,7 +13,7 @@
 
 - 👋 I’m **Hamza**, a 21-year-old software engineering student from India.  
 - 👨‍💻 Passionate about coding, building tools, and breaking things ethically.  
-- 🛡️ Deeply interested in **Cybersecurity**, **Bug Bounties**, and **Linux-based hacking**.  
+- 🛡️ Deeply interested in **Cybersecurity**, **Bug Bounties**, and **Linux**.  
 - 🌐 Let's collaborate and innovate something useful!  
 
 📫 Contact me [here](https://github.com/Crepco/Crepco/issues)
@@ -28,13 +28,13 @@
 
 ---
 
-### 🛡️ Cybersecurity & Ethical Hacking
+### 🛡️ Cybersecurity 
 
 <p align="center">
   <img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="350" />
 </p>
 
-- 🔐 Learning Ethical Hacking & Penetration Testing  
+- 🔐 Learning Penetration Testing  
 - 🐍 Writing automation scripts in Python for recon and scanning  
 - 🕵️‍♂️ Exploring OSINT & bug bounty platforms  
 - 🧰 Familiar with tools like:
