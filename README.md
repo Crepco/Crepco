@@ -13,7 +13,7 @@
 
 - 👋 I’m **Hamza**, a 21-year-old software engineering student from India.  
 - 👨‍💻 Passionate about coding, building tools, and breaking things ethically.  
-- 🛡️ Deeply interested in **Cybersecurity**, **Bug Bounties**, and **Linux**.  
+- 🛡️ Deeply interested in **Cybersecurity** and **Linux**.  
 - 🌐 Let's collaborate and innovate something useful!  
 
 📫 Contact me [here](https://github.com/Crepco/Crepco/issues)
