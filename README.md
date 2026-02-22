@@ -33,11 +33,13 @@ Things I've built to solve problems I actually had.
 
 | Project | Description |
 |--------|--------------|
-| **Spotify Playlist Downloader** | Downloads entire Spotify playlists with metadata and multi-format support. *Python · Web APIs · CSS* |
-| **Steganography Tool** | Embeds and extracts hidden data in images using LSB encoding. *Python · Image Processing · Cryptography* |
-| **Password Manager** | Local, encrypted password manager. No cloud, no subscriptions. *Python · AES-256 · Security* |
+| **[Salafi Maktab](https://salafimaktab.vercel.app/)** | Islamic library — authentic books & resources from scholars following the methodology of the Salaf. Curated collection with Library, Scholars, and Audio sections. *React · Vercel* |
+| **[Spotify Playlist Downloader](https://github.com/Crepco/spotify-playlist-downlaod)** | Downloads entire Spotify playlists with metadata and multi-format support. *Python · Web APIs · CSS* |
+| **[Steganography Tool](https://github.com/Crepco/Steganography-)** | Embeds and extracts hidden data in images using LSB encoding. *Python · Image Processing · Cryptography* |
+| **[Password Manager](https://github.com/Crepco/Password_Manager)** | Local, encrypted password manager. No cloud, no subscriptions. *Python · AES-256 · Security* |
+| **[Music Remover](https://github.com/Crepco/music_remover)** | Removes music from a song — isolate or strip the instrumental/vocal track. *Python · Audio* |
 
-👉 **[View full portfolio →](http://crepco.github.io/)**
+👉 **[View full portfolio →](http://crepco.github.io/)** · **[All repos →](https://github.com/Crepco?tab=repositories)**
 
 ---
 
