@@ -58,10 +58,6 @@ Things I've built to solve problems I actually had.
 **Currently learning:** Active Directory security, advanced web application exploitation, network traffic analysis.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26n7b7PjSOZJkVC8Y/giphy.gif" width="280" alt="Terminal" />
-</p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=python,django,html,css,js,git,github,mysql,linux,vscode,tailwind,bash" />
 </p>
 
