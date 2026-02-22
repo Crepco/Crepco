@@ -1,6 +1,5 @@
-<!-- PROFILE BANNER -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Hamza+%F0%9F%91%8B;Software+Engineering+Student+%7C+Cybersecurity+Learner;Python+%7C+Django+%7C+JavaScript;Let's+build+cool+stuff+%26+break+things!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Hamza+%F0%9F%91%8B;Security+Researcher+%26+Developer;Python+%7C+Linux+%7C+Security;Open+to+opportunities" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -9,18 +8,44 @@
 
 ---
 
-### 🧑‍💻 About Me
+### About Me
 
-- 👋 I’m **Hamza**, a 21-year-old software engineering student from India.  
-- 👨‍💻 Passionate about coding, building tools, and breaking things ethically.  
-- 🛡️ Deeply interested in **Cybersecurity** and **Linux**.  
-- 🌐 Let's collaborate and innovate something useful!  
+I'm a **21-year-old CSE student from India** — security researcher and developer. I build tools, explore systems, and try to understand how things work by taking them apart. Currently studying CSE while going deep on security.
 
-📫 Contact me [here](https://github.com/Crepco/Crepco/issues)
+- **Building** things that solve real problems  
+- **Python** is my language of choice  
+- **Linux** daily driver (Arch)  
+- **Self-taught** in cybersecurity  
+- **Currently** studying Computer Science  
+
+**Open to opportunities.**  
+📫 **Say hello:** [hamza0jeelani@gmail.com](mailto:hamza0jeelani@gmail.com)
 
 ---
 
-### ⚒️ Tools & Tech Stack
+### Projects
+
+Things I've built to solve problems I actually had.
+
+| Project | Description |
+|--------|--------------|
+| **Spotify Playlist Downloader** | Downloads entire Spotify playlists with metadata and multi-format support. *Python · Web APIs · CSS* |
+| **Steganography Tool** | Embeds and extracts hidden data in images using LSB encoding. *Python · Image Processing · Cryptography* |
+| **Password Manager** | Local, encrypted password manager. No cloud, no subscriptions. *Python · AES-256 · Security* |
+
+👉 **[View full portfolio →](http://crepco.github.io/)**
+
+---
+
+### Tech & Tools
+
+**Languages:** Python · JavaScript · Bash · HTML/CSS · SQL  
+
+**Security:** Burp Suite · Nmap · Wireshark · Metasploit · Hydra · John The Ripper · Nikto · SQLmap  
+
+**Systems & tooling:** Arch Linux · Kali Linux · Git · MySQL · Django · Neovim · VS Code  
+
+**Currently learning:** Active Directory security, advanced web application exploitation, network traffic analysis.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,django,html,css,js,git,github,mysql,linux,vscode,tailwind,bash" />
@@ -28,70 +53,24 @@
 
 ---
 
-### 🛡️ Cybersecurity 
-
-<p align="center">
-  <img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="350" />
-</p>
-
-- 🔐 Learning Penetration Testing  
-- 🐍 Writing automation scripts in Python for recon and scanning  
-- 🕵️‍♂️ Exploring OSINT & bug bounty platforms  
-- 🧰 Familiar with tools like:
-  - Burp Suite, Nmap, Wireshark, Metasploit
-  - JohnTheRipper, Hydra, Nikto, Gobuster
-
-<p align="center">
-  <img src="https://img.shields.io/badge/OSINT-Tools-blue?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6C37?style=for-the-badge&logo=burp-suite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap-00497E?style=for-the-badge&logo=nmap&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-</p>
-
----
-
-### 🧠 Currently Learning
-
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="420" />
-</p>
-
-- 🔹 Full-Stack Django Development  
-- 🔹 APIs & Backend Scalability  
-- 🔹 System Design  
-- 🔹 Ethical Hacking & Capture The Flag (CTF) Challenges
-
----
-
-### 📊 GitHub Stats
+### GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight&count_private=true" height="180px"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crepco&layout=compact&theme=tokyonight" height="180px"/>
 </p>
 
----
-
-### 🔥 Streak & Trophies
-
-<p align="center">     
+<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Crepco&theme=tokyonight" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Crepco&theme=tokyonight&column=4" />
-</p>
-
 ---
 
-### 🎮 Interactive Corner
+### Get in touch
 
-<p align="center">
-  <a href="https://github.com/Crepco?tab=repositories">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Crepco&theme=tokyonight" />
-  </a>
-</p>
+Open to collaborating on interesting projects, discussing security, or talking tech.
 
----
+[![Email](https://img.shields.io/badge/Email-hamza0jeelani%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:hamza0jeelani@gmail.com)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-crepco.github.io-24292e?style=flat-square)](http://crepco.github.io/)
 
+© 2026 Hamza Jeelani
