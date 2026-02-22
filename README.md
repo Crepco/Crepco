@@ -10,6 +10,10 @@
 
 ### About Me
 
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" alt="Coding" />
+</p>
+
 I'm a **21-year-old CSE student from India** — security researcher and developer. I build tools, explore systems, and try to understand how things work by taking them apart. Currently studying CSE while going deep on security.
 
 - **Building** things that solve real problems  
@@ -39,6 +43,10 @@ Things I've built to solve problems I actually had.
 
 ### Tech & Tools
 
+<p align="center">
+  <img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="320" alt="Security" />
+</p>
+
 **Languages:** Python · JavaScript · Bash · HTML/CSS · SQL  
 
 **Security:** Burp Suite · Nmap · Wireshark · Metasploit · Hydra · John The Ripper · Nikto · SQLmap  
@@ -46,6 +54,10 @@ Things I've built to solve problems I actually had.
 **Systems & tooling:** Arch Linux · Kali Linux · Git · MySQL · Django · Neovim · VS Code  
 
 **Currently learning:** Active Directory security, advanced web application exploitation, network traffic analysis.
+
+<p align="center">
+  <img src="https://media.giphy.com/media/26n7b7PjSOZJkVC8Y/giphy.gif" width="280" alt="Terminal" />
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,django,html,css,js,git,github,mysql,linux,vscode,tailwind,bash" />
@@ -62,6 +74,16 @@ Things I've built to solve problems I actually had.
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Crepco&theme=tokyonight" />
+</p>
+
+---
+
+### Contribution Graph
+
+<p align="center">
+  <a href="https://github.com/Crepco?tab=repositories">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Crepco&theme=tokyonight" alt="Contribution graph" />
+  </a>
 </p>
 
 ---
