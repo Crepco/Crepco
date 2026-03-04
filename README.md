@@ -9,6 +9,15 @@
  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═════╝ 
 </pre>
 
+<pre>
+██╗  ██╗ █████╗ ███╗   ███╗███████╗ █████╗ 
+██║  ██║██╔══██╗████╗ ████║╚══███╔╝██╔══██╗
+███████║███████║██╔████╔██║  ███╔╝ ███████║
+██╔══██║██╔══██║██║╚██╔╝██║ ███╔╝  ██╔══██║
+██║  ██║██║  ██║██║ ╚═╝ ██║███████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+</pre>
+
 <h3>Breaking Systems • Building Tools • Securing the Stack</h3>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -20,7 +29,7 @@
 ## Profile Metrics
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Crepco&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=Crepco&theme=tokyonight&column=7" />
 </div>
 
 <br>
@@ -42,9 +51,14 @@
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Crepco&theme=tokyonight" />
 </div>
 
+<br>
+
 <div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Crepco&theme=tokyonight&utcOffset=5" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Crepco&theme=tokyonight" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Crepco/Crepco/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 </div>
 
 ---
