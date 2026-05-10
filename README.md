@@ -48,6 +48,7 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[ClerkView](https://clerkview.com)** | Clinical case log for medical students — document and track cases during training | Web |
 | **[Salafi Maktab](https://salafimaktab.vercel.app/)** | Islamic digital library — authentic books, scholars, audio resources | React · Vercel |
 | **[Spotify Downloader](https://github.com/Crepco/spotify-playlist-downlaod)** | Pull full playlists with metadata, covers, multi-format output | Python · Spotify API |
 | **[Steganography Tool](https://github.com/Crepco/Steganography-)** | LSB encoding to hide and extract data inside images | Python · Cryptography |
