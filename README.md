@@ -18,13 +18,35 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 
 > Built to solve real problems. Not for the portfolio.
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[Ariadne](https://github.com/Crepco/Ariadne)** | Can an LLM agent trace an Active Directory attack path to Domain Admin on its own — and how does it stack up against BloodHound? A scored, reproducible benchmark. | Python · LLM agents · AD |
-| **[DART](https://github.com/Crepco/DART)** | Autonomous pan-tilt turret: YOLOv8 person tracking + face authorization, arming only on a confirmed *unauthorized* target. Vision on a laptop, servos on an Arduino. | Python · CV · Arduino |
-| **[FlowState](https://github.com/Crepco/flowstate)** | Real-time focus tracking from a forehead EEG sensor — a live 0–100 score that buzzes the moment you zone out. Physiological, not a webcam guessing at your gaze. | Python · EEG · Arduino R4 |
-| **[Argus](https://github.com/Crepco/Argus)** | Defensive OSINT self-audit — shows what an attacker could find about an identity you can prove you own, then hands you a prioritized remediation plan. | Python · OSINT |
-| **[ClerkView](https://clerkview.com)** | Clinical case log for medical students — document and track cases during training. Shipped, with real users. | Web |
+<a href="https://github.com/Crepco/Ariadne"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-ariadne-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-ariadne-light.svg" />
+  <img alt="Ariadne — Python · LLM agents · AD. Can an LLM agent trace an Active Directory attack path to Domain Admin on its own, versus BloodHound? A scored, reproducible benchmark." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-ariadne-dark.svg" width="729" />
+</picture></a>
+
+<a href="https://github.com/Crepco/DART"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-dart-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-dart-light.svg" />
+  <img alt="DART — Python · CV · Arduino. Autonomous pan-tilt turret: YOLOv8 person tracking plus face authorization, arming only on a confirmed unauthorized target. Laptop vision, Arduino servos." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-dart-dark.svg" width="729" />
+</picture></a>
+
+<a href="https://github.com/Crepco/flowstate"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-flowstate-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-flowstate-light.svg" />
+  <img alt="FlowState — Python · EEG · Arduino R4. Real-time focus tracking from a forehead EEG sensor: a live 0 to 100 score that buzzes the moment you zone out. Physiological, not a webcam guessing at your gaze." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-flowstate-dark.svg" width="729" />
+</picture></a>
+
+<a href="https://github.com/Crepco/Argus"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-argus-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-argus-light.svg" />
+  <img alt="Argus — Python · OSINT. Defensive OSINT self-audit: shows what an attacker could find about an identity you can prove you own, then hands you a prioritized remediation plan." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-argus-dark.svg" width="729" />
+</picture></a>
+
+<a href="https://clerkview.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-clerkview-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-clerkview-light.svg" />
+  <img alt="ClerkView — Web · shipped. Clinical case log for medical students: document and track cases during training. Shipped, with real users." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/proj-clerkview-dark.svg" width="729" />
+</picture></a>
 
 → [Full portfolio](https://crepco.github.io/) · [All repos](https://github.com/Crepco?tab=repositories) — including [ESP32 ChatRoom](https://github.com/Crepco/esp_chatroom), [Spotify Downloader](https://github.com/Crepco/spotify-playlist-downlaod), [Steganography](https://github.com/Crepco/Steganography-) & more
 
