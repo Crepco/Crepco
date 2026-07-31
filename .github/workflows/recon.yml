@@ -1,0 +1,30 @@
+name: Generate recon report
+
+on:
+  schedule:
+    # Daily at 00:30 UTC (snake runs at 00:00; offset avoids push races)
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/terminal.py
+          python3 scripts/recon.py
+
+      - name: Push assets
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --staged --quiet || git commit -m "chore: refresh recon report"
+          git push
