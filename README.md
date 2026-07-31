@@ -25,7 +25,6 @@
 {
   "name"      : "Hamza",
   "handle"    : "Crepco",
-  "age"       : 21,
   "location"  : "India",
   "degree"    : "Computer Science Engineering",
   "focus"     : ["Security Research", "Python Tooling", "Web Development"],
@@ -52,11 +51,9 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 | **[Steganography Tool](https://github.com/Crepco/Steganography-)** | LSB encoding to hide and extract data inside images | Python · Cryptography |
 | **[Password Manager](https://github.com/Crepco/Password_Manager)** | AES-256 encrypted, local-only, no cloud dependencies | Python |
 | **[Music Remover](https://github.com/Crepco/music_remover)** | Strip or isolate vocals/instruments from any audio file | Python · Audio DSP |
-| **[Keira Bot](https://github.com/Crepco/keira)** | Extensible Discord bot built for growth | Python · discord.py |
-| **[Datanyx](https://github.com/Crepco/datanyx)** | Hackathon project — data tooling under pressure | Python |
 | **[Linux Rice](https://github.com/Crepco/linux-rice)** | Hyprland dotfiles — because the terminal is home | Shell · Hyprland |
 
-→ [Full portfolio](http://crepco.github.io/) · [All repos](https://github.com/Crepco?tab=repositories)
+→ [Full portfolio](https://crepco.github.io/) · [All repos](https://github.com/Crepco?tab=repositories)
 
 ---
 
@@ -89,7 +86,7 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 <img src="https://img.shields.io/badge/Gobuster-222222?style=flat-square&logoColor=white" />
 </div>
 
-<sub align="center">+ Hydra · John The Ripper · Nikto · OSINT toolchain</sub>
+<div align="center"><sub>+ Hydra · John The Ripper · Nikto · OSINT toolchain</sub></div>
 
 <br>
 
@@ -121,7 +118,7 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 ## `$ git log --oneline`
 
 <div align="center">
-<img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Crepco&theme=tokyonight&hide_border=true" />
+<img height="160em" src="https://streak-stats.demolab.com/?user=Crepco&theme=tokyonight&hide_border=true" />
 <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Crepco&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 </div>
 
@@ -134,16 +131,10 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 <br>
 
 <div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Crepco&theme=tokyonight" />
-</div>
-
-<br>
-
-<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Crepco/Crepco/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Crepco/Crepco/main/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 </div>
 
@@ -153,7 +144,7 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 
 *Open to opportunities — security, tooling, or anything I'd learn from.*
 
-**[hamza0jeelani@gmail.com](mailto:hamza0jeelani@gmail.com)** · **[Portfolio](http://crepco.github.io/)**
+**[hamza0jeelani@gmail.com](mailto:hamza0jeelani@gmail.com)** · **[Portfolio](https://crepco.github.io/)**
 
 <img src="https://komarev.com/ghpvc/?username=Crepco&label=profile+views&color=7aa2f7&style=flat-square" />
 
