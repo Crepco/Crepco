@@ -30,24 +30,15 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 
 <div align="center"><img src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/divider.svg" width="729" alt="" /></div>
 
-## `$ ./stack.sh`
+## `$ neofetch`
 
-```console
-$ pacman -Qqe | column
-python      javascript   bash     html      css
-django      react        nodejs   mysql     git
-
-$ ls /opt/sec-tools
-burpsuite/  wireshark/   nmap/    metasploit/  sqlmap/
-gobuster/   hydra/       john/    nikto/       osint/
-
-$ ls /dev/tty* && echo /workbench
-/dev/ttyUSB0   esp32 · esp8266 · arduino uno / r4
-/dev/ttyACM0   yolov8 · opencv · bioamp · servos · i2c / spi
-
-$ echo "$WM · $EDITOR · $DISTRO"
-hyprland · neovim · arch (btw) — kali in the lab
-```
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/neofetch-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/neofetch-light.svg" />
+  <img alt="neofetch-style stack card. crepco@arch on Arch Linux, Hyprland, Neovim, Kali Linux in the lab. Languages: python, javascript, bash, c++, sql. Backend: django, node, react. Security: burp, nmap, wireshark, metasploit, sqlmap. Hardware: esp32, arduino, yolov8, bioamp, i2c/spi." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/neofetch-dark.svg" width="729" />
+</picture>
+</div>
 
 <div align="center"><img src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/divider.svg" width="729" alt="" /></div>
 
