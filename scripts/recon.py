@@ -107,20 +107,19 @@ def build(theme, d):
             for c, t, cls in spans)
         if tspans:
             body.append(f'<text y="{y:g}">{tspans}</text>')
-    # blinking cursor after the status line
+    # blinking cursor after the status line — SMIL so it runs inside <img>
     cx = PAD + (15 + len("ACTIVE — probing new attack surfaces") + 1) * CELL
     cy = PAD + status_row * ROW + FS
     body.append(f'<rect x="{cx:g}" y="{cy - FS + 1:g}" width="{CELL:g}" height="{FS + 3}" '
-                f'fill="{pal["g"]}" class="cur"/>')
+                f'fill="{pal["g"]}"><animate attributeName="opacity" '
+                f'values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" '
+                f'repeatCount="indefinite"/></rect>')
 
     color_css = "".join(f".c{k}{{fill:{pal[k]}}}" for k in "fmbgryvc")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Recon report on github.com/{USER}: {d['repos']} public repos, {d['stars']} stars, last push {d['last_push']}. Top languages: {', '.join(f"{l} {p:.0f}%" for l, p in d['langs'])}. Status: active.">
 <style>
 text{{font-family:{FONT};font-size:{FS}px;white-space:pre}}
 {color_css}
-.cur{{animation:blink 1.06s step-end infinite}}
-@keyframes blink{{50%{{opacity:0}}}}
-@media(prefers-reduced-motion:reduce){{.cur{{animation:none}}}}
 </style>
 <rect width="{W}" height="{H}" rx="9" fill="{pal["bg"]}" stroke="{pal["border"]}"/>
 {"".join(body)}

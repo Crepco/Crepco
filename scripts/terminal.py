@@ -1,13 +1,16 @@
 """Generate the animated terminal-session hero SVG for the profile README.
 
 Pure stdlib. Emits assets/terminal-dark.svg and assets/terminal-light.svg.
-The animation is a scripted shell session on a fixed character grid:
-typed commands reveal per-character, output lines print per-line, and the
-whole thing ends on an infinitely blinking cursor.
 
-Design note: the canvas is kept short and the reveal fast so the terminal
-fills within a few seconds — a tall canvas that reveals slowly spends too
-long looking half-empty. `prefers-reduced-motion` gets the final frame.
+The animation uses SMIL (`<set>` / `<animate>`), NOT CSS @keyframes.
+This matters: GitHub renders README images inside an <img> element, and
+CSS animations do not run reliably in that context — they stall after the
+first frames. SMIL animations do run there (it's what the contribution
+snake and typing-SVGs use), so every reveal here is a `<set>` that flips
+opacity 0->1 at its scheduled `begin` time and freezes.
+
+The canvas is kept short and the reveal fast so the terminal fills within
+a few seconds rather than spending long looking half-empty.
 """
 from datetime import datetime, timezone
 from pathlib import Path
@@ -21,15 +24,14 @@ LINE_STAGGER = 0.085    # s between printed output lines
 CMD_PAUSE = 0.18        # pause after a command before its output
 THINK_PAUSE = 0.38      # pause before each new prompt
 
-# fixed-width columns for the nmap-style port table
 PORT_W, STATE_W, SVC_W = 10, 7, 12
 
 
-def P(cmd):  # a typed prompt line
+def P(cmd):
     return [("❯ ", "g", "i"), (cmd, "f", "t")]
 
 
-def O(*spans):  # an instant output line; spans as (text, cls)
+def O(*spans):
     return [(t, c, "i") for t, c in spans]
 
 
@@ -70,6 +72,11 @@ SESSION = [
 TYPE_SPEEDS = {"········": 0.075, "████████████████████": 0.05}
 
 
+def reveal(begin):
+    """A SMIL set that turns the parent visible at `begin` and holds it."""
+    return f'<set attributeName="opacity" to="1" begin="{begin:.2f}s" fill="freeze"/>'
+
+
 def build(theme: str) -> str:
     pal = PALETTES[theme]
     rows = sum({"line": 1, "blank": 1, "cursor": 1}.get(k, 0) for k, _ in SESSION)
@@ -89,15 +96,18 @@ def build(theme: str) -> str:
             continue
         if kind == "cursor":
             y = row_y(row)
-            body.append(f'<text x="{col_x(0):g}" y="{y:g}" class="t cg" '
-                        f'style="animation-delay:{t:.2f}s">❯</text>')
-            body.append(f'<rect x="{col_x(2):g}" y="{y - FS + 1:g}" width="{CELL:g}" '
-                        f'height="{FS + 3}" class="curwrap" '
-                        f'style="animation-delay:{t:.2f}s"/>')
+            body.append(f'<text x="{col_x(0):g}" y="{y:g}" class="cg" opacity="0">'
+                        f'{reveal(t)}❯</text>')
+            body.append(
+                f'<rect x="{col_x(2):g}" y="{y - FS + 1:g}" width="{CELL:g}" '
+                f'height="{FS + 3}" fill="{pal["b"]}" opacity="0">'
+                f'<animate attributeName="opacity" values="1;1;0;0" '
+                f'keyTimes="0;0.5;0.5;1" dur="1.06s" begin="{t:.2f}s" '
+                f'repeatCount="indefinite"/></rect>')
             row += 1
             continue
 
-        # kind == "line": walk spans, advancing a column cursor
+        # kind == "line"
         y = row_y(row)
         col = 0
         group, group_t = [], None
@@ -107,8 +117,7 @@ def build(theme: str) -> str:
         def flush():
             nonlocal group, group_t
             if group:
-                body.append(f'<text y="{y:g}" class="t" '
-                            f'style="animation-delay:{group_t:.2f}s">'
+                body.append(f'<text y="{y:g}" opacity="0">{reveal(group_t)}'
                             + "".join(group) + "</text>")
                 group, group_t = [], None
 
@@ -123,8 +132,9 @@ def build(theme: str) -> str:
                 speed = TYPE_SPEEDS.get(text, CHAR_SPEED)
                 for ch in text:
                     if ch != " ":
-                        body.append(f'<text x="{col_x(col):g}" y="{y:g}" class="t c{cls}" '
-                                    f'style="animation-delay:{t:.2f}s">{esc(ch)}</text>')
+                        body.append(
+                            f'<text x="{col_x(col):g}" y="{y:g}" class="c{cls}" '
+                            f'opacity="0">{reveal(t)}{esc(ch)}</text>')
                     t += speed
                     col += 1
         flush()
@@ -142,15 +152,11 @@ def build(theme: str) -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Animated terminal session. whoami returns: hamza, security research and python tooling. An nmap scan of localhost lists open ports as skills: 22 python, 80 web, 443 security, 1337 ctf. Then sudo ./exploit --target comfort_zone delivers a payload and reports: persistence established, learning daemon is now running.">
 <style>
 text{{font-family:{FONT};font-size:{FS}px;white-space:pre}}
-.t{{opacity:0;animation:on .01s steps(1) forwards}}
 .cg{{fill:{pal["g"]}}}
-.curwrap{{fill:{pal["b"]};opacity:0;animation:on .01s steps(1) forwards,blink 1.06s step-end infinite}}
 {color_css}
 .bartxt{{fill:{pal["m"]};font-size:12px}}
 .barhost{{fill:{pal["b"]};font-size:12px}}
-@keyframes on{{to{{opacity:1}}}}
-@keyframes blink{{50%{{opacity:0}}}}
-@media(prefers-reduced-motion:reduce){{*{{animation:none!important}}.t{{opacity:1!important}}.curwrap{{opacity:1!important}}}}
+@media(prefers-reduced-motion:reduce){{text,rect{{opacity:1}}}}
 </style>
 <defs>
 <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".55"/></pattern>

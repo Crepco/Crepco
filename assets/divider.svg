@@ -6,6 +6,7 @@
 <stop offset="1" stop-color="#bb9af7" stop-opacity=".1"/>
 </linearGradient>
 </defs>
-<style>.p{animation:flow 3s linear infinite}@keyframes flow{to{stroke-dashoffset:-36}}@media(prefers-reduced-motion:reduce){.p{animation:none}}</style>
-<line class="p" x1="0" y1="4" x2="729" y2="4" stroke="url(#g)" stroke-width="2" stroke-dasharray="14 22" stroke-linecap="round"/>
+<line x1="0" y1="4" x2="729" y2="4" stroke="url(#g)" stroke-width="2" stroke-dasharray="14 22" stroke-linecap="round">
+<animate attributeName="stroke-dashoffset" from="0" to="-36" dur="3s" repeatCount="indefinite"/>
+</line>
 </svg>
