@@ -64,16 +64,7 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 
 <div align="center"><img src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/divider.svg" width="729" alt="" /></div>
 
-## `$ cat ./current_focus.md`
 
-```
-[*] Active Directory enumeration & lateral movement
-[*] Web application exploitation (OWASP, logic flaws, auth bypass)
-[*] Network traffic analysis & protocol reversing
-[*] Building automation tooling for recon pipelines
-[*] Embedded & IoT — ESP32 / Arduino, sensor pipelines, on-device CV
-[ ] CTF grinding — always
-```
 
 <div align="center"><img src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/divider.svg" width="729" alt="" /></div>
 
