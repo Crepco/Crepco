@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/terminal-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/terminal-light.svg" />
-  <img alt="Animated terminal session: whoami — Hamza, security research and python tooling. An nmap scan finds open ports: python, web, security, ctf. Then ./exploit --target comfort_zone establishes persistence: the learning daemon is running." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/terminal-dark.svg" width="729" />
+  <img alt="Animated terminal session: whoami — Hamza, security research, python tooling, and embedded. An nmap scan finds open ports: python, web, security, ctf, and hardware. Then ./exploit --target comfort_zone establishes persistence: the learning daemon is running." src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/terminal-dark.svg" width="729" />
 </picture>
 
 </div>
@@ -14,21 +14,19 @@ I'm a CSE student who drifted into security by curiosity and stayed for the craf
 
 <div align="center"><img src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/divider.svg" width="729" alt="" /></div>
 
-## `$ ls ./projects`
+## `$ ls ./projects --sort=impressive | head -5`
 
 > Built to solve real problems. Not for the portfolio.
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[ClerkView](https://clerkview.com)** | Clinical case log for medical students — document and track cases during training | Web |
-| **[Salafi Maktab](https://salafimaktab.vercel.app/)** | Islamic digital library — authentic books, scholars, audio resources | React · Vercel |
-| **[Spotify Downloader](https://github.com/Crepco/spotify-playlist-downlaod)** | Pull full playlists with metadata, covers, multi-format output | Python · Spotify API |
-| **[Steganography Tool](https://github.com/Crepco/Steganography-)** | LSB encoding to hide and extract data inside images | Python · Cryptography |
-| **[Password Manager](https://github.com/Crepco/Password_Manager)** | AES-256 encrypted, local-only, no cloud dependencies | Python |
-| **[Music Remover](https://github.com/Crepco/music_remover)** | Strip or isolate vocals/instruments from any audio file | Python · Audio DSP |
-| **[Linux Rice](https://github.com/Crepco/linux-rice)** | Hyprland dotfiles — because the terminal is home | Shell · Hyprland |
+| **[Ariadne](https://github.com/Crepco/Ariadne)** | Can an LLM agent trace an Active Directory attack path to Domain Admin on its own — and how does it stack up against BloodHound? A scored, reproducible benchmark. | Python · LLM agents · AD |
+| **[DART](https://github.com/Crepco/DART)** | Autonomous pan-tilt turret: YOLOv8 person tracking + face authorization, arming only on a confirmed *unauthorized* target. Vision on a laptop, servos on an Arduino. | Python · CV · Arduino |
+| **[FlowState](https://github.com/Crepco/flowstate)** | Real-time focus tracking from a forehead EEG sensor — a live 0–100 score that buzzes the moment you zone out. Physiological, not a webcam guessing at your gaze. | Python · EEG · Arduino R4 |
+| **[Argus](https://github.com/Crepco/Argus)** | Defensive OSINT self-audit — shows what an attacker could find about an identity you can prove you own, then hands you a prioritized remediation plan. | Python · OSINT |
+| **[ClerkView](https://clerkview.com)** | Clinical case log for medical students — document and track cases during training. Shipped, with real users. | Web |
 
-→ [Full portfolio](https://crepco.github.io/) · [All repos](https://github.com/Crepco?tab=repositories)
+→ [Full portfolio](https://crepco.github.io/) · [All repos](https://github.com/Crepco?tab=repositories) — including [ESP32 ChatRoom](https://github.com/Crepco/esp_chatroom), [Spotify Downloader](https://github.com/Crepco/spotify-playlist-downlaod), [Steganography](https://github.com/Crepco/Steganography-) & more
 
 <div align="center"><img src="https://raw.githubusercontent.com/Crepco/Crepco/main/assets/divider.svg" width="729" alt="" /></div>
 
@@ -43,6 +41,10 @@ $ ls /opt/sec-tools
 burpsuite/  wireshark/   nmap/    metasploit/  sqlmap/
 gobuster/   hydra/       john/    nikto/       osint/
 
+$ ls /dev/tty* && echo /workbench
+/dev/ttyUSB0   esp32 · esp8266 · arduino uno / r4
+/dev/ttyACM0   yolov8 · opencv · bioamp · servos · i2c / spi
+
 $ echo "$WM · $EDITOR · $DISTRO"
 hyprland · neovim · arch (btw) — kali in the lab
 ```
@@ -56,6 +58,7 @@ hyprland · neovim · arch (btw) — kali in the lab
 [*] Web application exploitation (OWASP, logic flaws, auth bypass)
 [*] Network traffic analysis & protocol reversing
 [*] Building automation tooling for recon pipelines
+[*] Embedded & IoT — ESP32 / Arduino, sensor pipelines, on-device CV
 [ ] CTF grinding — always
 ```
 

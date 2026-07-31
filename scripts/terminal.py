@@ -24,7 +24,7 @@ LINE_STAGGER = 0.085    # s between printed output lines
 CMD_PAUSE = 0.18        # pause after a command before its output
 THINK_PAUSE = 0.38      # pause before each new prompt
 
-PORT_W, STATE_W, SVC_W = 10, 7, 12
+PORT_W, STATE_W, SVC_W = 12, 7, 12
 
 
 def P(cmd):
@@ -44,7 +44,7 @@ SESSION = [
     ("pause", 0.40),
     ("line", P("whoami")),
     ("line", O(("hamza", "c"),
-               (" — security research · python tooling · web dev · India", "m"))),
+               (" — security research · python tooling · embedded · web dev · India", "m"))),
     ("pause", THINK_PAUSE),
     ("line", P("nmap -sV localhost")),
     ("line", O(("PORT".ljust(PORT_W) + "STATE".ljust(STATE_W)
@@ -53,7 +53,8 @@ SESSION = [
     ("line", port("80/tcp", "web", "react · node · vercel")),
     ("line", port("443/tcp", "security", "burp · nmap · wireshark · metasploit")),
     ("line", port("1337/tcp", "ctf", "always grinding")),
-    ("line", O(("4 services up — host is very much alive.", "m"))),
+    ("line", port("115200/tcp", "hardware", "esp32 · arduino · cv · biosignals")),
+    ("line", O(("5 services up — host is very much alive.", "m"))),
     ("blank", None),
     ("pause", THINK_PAUSE),
     ("line", P("sudo ./exploit --target comfort_zone")),
@@ -149,7 +150,7 @@ def build(theme: str) -> str:
                 f'fill="url(#scan)" opacity="0.25"/>')
     color_css = "".join(f".c{k}{{fill:{pal[k]}}}" for k in "fmbgryvc")
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Animated terminal session. whoami returns: hamza, security research and python tooling. An nmap scan of localhost lists open ports as skills: 22 python, 80 web, 443 security, 1337 ctf. Then sudo ./exploit --target comfort_zone delivers a payload and reports: persistence established, learning daemon is now running.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Animated terminal session. whoami returns: hamza, security research, python tooling, and embedded. An nmap scan of localhost lists open ports as skills: 22 python, 80 web, 443 security, 1337 ctf, 115200 hardware. Then sudo ./exploit --target comfort_zone delivers a payload and reports: persistence established, learning daemon is now running.">
 <style>
 text{{font-family:{FONT};font-size:{FS}px;white-space:pre}}
 .cg{{fill:{pal["g"]}}}
